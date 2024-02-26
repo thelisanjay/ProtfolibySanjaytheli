@@ -1,0 +1,57 @@
+.Contact{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0;
+    
+}
+.Contact-Underline{
+    content: "";
+    width: 4%;
+    margin-left: 30px;
+    background-color: aqua;
+    border-bottom: 3px solid #35c4fd;
+    border-radius: 20px;
+    position: absolute;
+}
+    
+
+.Contact-titel{
+    font-size: 2rem;
+    font-family: "Playfair Display";
+    font-weight: 500;
+    margin: 0 auto 15px;
+   
+}
+
+.Contact-inputfiled{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 70%;
+    /* height: 23vh; */
+    padding: 23px;
+}
+.Contact-inputfiled input{
+    border-radius: 23px;
+    border: 2px solid black;
+    padding: 14px;
+}
+.Contact-inputfiled textarea{
+    border-radius: 23px;
+    border: 2px solid black;
+    padding: 14px ;
+    height: 20vh;
+    resize: none;
+
+}
+.Submitbtn{
+    border-radius: 23px;
+    border: 2px solid #080808;
+    background-color: #35c4fd;
+    color: #080808;
+    width: 100px;
+    
+}

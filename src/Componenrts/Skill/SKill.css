@@ -1,0 +1,41 @@
+
+
+.Skill{
+    align-items: center;
+    width: 80%;
+    margin: 100px auto 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+
+}
+
+.Skill-titel{
+    font-family: "Playfair Display";
+    margin: 0 auto 30px;
+}
+.Skill-btn{
+    display: flex;
+    flex-wrap: wrap;
+    width: 57%;
+   justify-content: center;
+   gap:20px;
+}
+.Skill-btn p{
+    border: 2px solid black ;
+    border-radius: 20px;
+    padding: 5px 20px;
+    font-size: 20px;
+
+}
+.skillunderline{
+    content: "";
+    width: 4%;
+    margin-left: 12px;
+    background-color: aqua;
+    border-bottom: 3px solid #35c4fd;
+    border-radius: 20px;
+    position: absolute;
+}
