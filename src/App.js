@@ -10,13 +10,14 @@ import Contact from "./Componenrts/Contact/Contanct"
 function App() {
   return (
     <div className="App">
+
       
       <Nav/>
       <Bio/>
       <Projects/>
       <Skill/>
       <Contact/>
-      {/* <Usestatea/> */}
+      {/* <Usestatea  text= "@@@@"/> */}
     </div>
   );
 }

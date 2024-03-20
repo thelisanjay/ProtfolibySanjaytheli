@@ -5,7 +5,7 @@ import React from "react";
  const Projects =()=> {
     return (
       <>
-        <div className="Projects">
+        <div id="projects">
           <div className="Projects-titel">
             <h2>Projects</h2>
             <span className=" underline"></span>

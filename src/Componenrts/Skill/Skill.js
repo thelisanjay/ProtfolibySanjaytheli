@@ -7,7 +7,7 @@ import "./SKill.css";
 const Skills = ( ) =>{
     return (
       <>
-        <div className="Skill">
+        <div id="skill">
           <div className="Skill-titel">
             <h2 >Skills</h2>
             <span className="skillunderline"></span>
